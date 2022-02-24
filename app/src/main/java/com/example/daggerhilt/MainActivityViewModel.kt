@@ -1,6 +1,4 @@
 package com.example.daggerhilt
-
-
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.daggerhilt.network.RecyclerData

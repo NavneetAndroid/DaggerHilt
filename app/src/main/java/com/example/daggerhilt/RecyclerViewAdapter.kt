@@ -7,7 +7,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.daggerhilt.network.RecyclerData
-import kotlinx.android.synthetic.main.list_item.view.*
+import kotlinx.android.synthetic.main.recycler_row.view.*
+
 
 class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
 
@@ -21,7 +22,7 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolde
         parent: ViewGroup,
         viewType: Int
     ): RecyclerViewAdapter.MyViewHolder {
-        val view  = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)
+        val view  = LayoutInflater.from(parent.context).inflate(R.layout.recycler_row, parent, false)
 
         return MyViewHolder(view)
     }
